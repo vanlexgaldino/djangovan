@@ -1,0 +1,4 @@
+Quando apliquei o runserver
+recebi o erro de que a port :8000 estava em uso
+então matei todos os processos dela com :
+sudo fuser -k 8000/tcp
